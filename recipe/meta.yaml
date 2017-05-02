@@ -1,8 +1,8 @@
 {%set conda_forge_name = "python-annoy" %}
 {%set pypi_name = "annoy" %}
-{%set version = "1.8.0" %}
+{%set version = "1.8.3" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "9ac9bd931a4ced34a27c6a8719de3c9a662fe30ea6cfedaa95b3941067b1fe3e" %}
+{%set hash_val = "99e7f168a0b37d1aba9fde629e09d5eb427b62665c2cc459983ad2d077ca6e24" %}
 
 package:
   name: {{ conda_forge_name }}
