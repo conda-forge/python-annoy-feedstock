@@ -16,7 +16,6 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  skip: True  # [win]
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
@@ -24,6 +23,7 @@ requirements:
   build:
     - python
     - setuptools
+    - toolchain
     - nose >=1.0
 
   run:
