@@ -24,7 +24,7 @@ requirements:
   build:
     - python
     - setuptools
-    - toolichain
+    - toolchain
     - nose >=1.0
 
   run:
