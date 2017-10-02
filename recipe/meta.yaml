@@ -1,9 +1,9 @@
 {% set conda_forge_name = "python-annoy" %}
 {% set pypi_name = "annoy" %}
-{% set version = "1.9.4" %}
+{% set version = "1.9.5" %}
 {% set bundle_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "3865ecf41778b340268536181f8aa23ff09523cd815c40dcec94334a2606c16e" %}
+{% set hash = "8dd63b5f6a173a647c2c09df1d3d7a8bc90129fd88168a84f6239116b928738a" %}
 {% set build = 0 %}
 
 package:
