@@ -1,9 +1,9 @@
 {% set conda_forge_name = "python-annoy" %}
 {% set pypi_name = "annoy" %}
-{% set version = "1.10.0" %}
+{% set version = "1.11.5" %}
 {% set bundle_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "08c4b2d4c6c686e31a9a1040e7a87d60a20e32e0508d6c3e05c15c36a415cdd8" %}
+{% set hash = "0b2196905954c3a8f47804f06e078602d66f3925526b13d20e117c52db6241ca" %}
 {% set build = 0 %}
 
 package:
@@ -17,7 +17,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
