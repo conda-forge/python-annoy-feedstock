@@ -4,7 +4,7 @@
 {% set bundle_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "0b2196905954c3a8f47804f06e078602d66f3925526b13d20e117c52db6241ca" %}
-{% set build = 0 %}
+
 
 package:
   name: {{ conda_forge_name }}
@@ -12,18 +12,18 @@ package:
 
 source:
   fn: {{ pypi_name }}-{{ version }}.{{ bundle_type }}
-  url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.{{ bundle_type }}
+  url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.{{ bundle_type }}
   {{ hash_type }}: {{ hash }}
 
 build:
   skip: True  # [win]
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - toolchain
     - nose >=1.0
 
