@@ -14,14 +14,16 @@ Summary: Approximate Nearest Neighbors in C++/Python optimized for memory usage 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-annoy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-annoy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-annoy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-annoy-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/python-annoy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/python-annoy-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/python-annoy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python-annoy-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-annoy/badges/version.svg)](https://anaconda.org/conda-forge/python-annoy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-annoy/badges/downloads.svg)](https://anaconda.org/conda-forge/python-annoy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--annoy-green.svg)](https://anaconda.org/conda-forge/python-annoy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-annoy.svg)](https://anaconda.org/conda-forge/python-annoy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-annoy.svg)](https://anaconda.org/conda-forge/python-annoy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-annoy.svg)](https://anaconda.org/conda-forge/python-annoy) |
 
 Installing python-annoy
 =======================
