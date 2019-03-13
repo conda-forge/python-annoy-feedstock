@@ -1,8 +1,8 @@
 {% set conda_forge_name = "python-annoy" %}
 {% set pypi_name = "annoy" %}
-{% set version = "1.15.0" %}
+{% set version = "1.15.1" %}
 {% set bundle_type = "tar.gz" %}
-{% set sha256 = "0c490806bc4b6e731af5de90d1d099735d13f93cd7bc2977230967dc242ebf0f" %}
+{% set sha256 = "37ff7cbe21f76fd48479a866e94cff3d288520940d16f20ec8626460ad36b6e7" %}
 
 
 package:
@@ -16,7 +16,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
