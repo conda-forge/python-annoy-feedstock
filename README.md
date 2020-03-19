@@ -211,4 +211,5 @@ Feedstock Maintainers
 =====================
 
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@xhochy](https://github.com/xhochy/)
 
