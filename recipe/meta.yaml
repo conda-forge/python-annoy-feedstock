@@ -16,8 +16,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
 
 requirements:
   build:
@@ -37,7 +36,7 @@ test:
 about:
   home: https://github.com/spotify/annoy
   license_file: LICENSE
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   summary: 'Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.'
   dev_url: https://github.com/spotify/annoy
