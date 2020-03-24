@@ -16,8 +16,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
 
 requirements:
   build:
