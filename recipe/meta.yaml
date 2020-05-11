@@ -15,8 +15,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [win]
-  number: 2
+  number: 3
 
 requirements:
   build:
