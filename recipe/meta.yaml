@@ -16,10 +16,7 @@ source:
 
 build:
   number: 3
-  features:
-     - vc9   # [win and py27]
-     - vc10  # [win and py34]
-     - vc14  # [win and py>=35]
+
 
 requirements:
   build:
@@ -30,17 +27,10 @@ requirements:
     - pip
     - nose >=1.0
     - setuptools
-    - toolchain
-    - vc 9  # [win and py27]
-    - vc 10  # [win and py34]
-    - vc 14  # [win and py>=35]
 
   run:
     - python
-    - vc 9  # [win and py27]
-    - vc 10  # [win and py34]
-    - vc 14  # [win and py>=35]
-
+    
 test:
   imports:
     - annoy
