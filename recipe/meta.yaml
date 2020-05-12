@@ -15,8 +15,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [win]
-  number: 2
+  number: 3
+
 
 requirements:
   build:
@@ -26,9 +26,11 @@ requirements:
     - python
     - pip
     - nose >=1.0
+    - setuptools
+
   run:
     - python
-
+    
 test:
   imports:
     - annoy
