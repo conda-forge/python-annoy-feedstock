@@ -1,8 +1,8 @@
 {% set conda_forge_name = "python-annoy" %}
 {% set pypi_name = "annoy" %}
-{% set version = "1.16.3" %}
+{% set version = "1.17.0" %}
 {% set bundle_type = "tar.gz" %}
-{% set sha256 = "fe2779664bd8846f2d67191a7e6010b8df890ac4586336748fd0697f31654379" %}
+{% set sha256 = "9891e264041d1dcf3af42f67fbb16cb273c5404bc8c869d0915a3087f71d58dd" %}
 
 
 package:
@@ -15,7 +15,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
 
 
 requirements:
@@ -30,7 +30,7 @@ requirements:
 
   run:
     - python
-    
+
 test:
   imports:
     - annoy
@@ -40,7 +40,7 @@ about:
   license_file: LICENSE
   license: Apache-2.0
   license_family: Apache
-  summary: 'Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.'
+  summary: Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.
   dev_url: https://github.com/spotify/annoy
 
 extra:
