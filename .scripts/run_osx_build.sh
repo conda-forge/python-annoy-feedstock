@@ -26,15 +26,9 @@ export CONDA_SOLVER="libmamba"
 export CONDA_LIBMAMBA_SOLVER_NO_CHANNELS_FROM_INSTALLED=1
 
 mamba install --update-specs --quiet --yes --channel conda-forge --strict-channel-priority \
-<<<<<<< HEAD
-    pip mamba conda-build boa conda-forge-ci-setup=3
-mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
-    pip mamba conda-build boa conda-forge-ci-setup
-=======
     pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
 mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
     pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
 
 
 
@@ -87,11 +81,7 @@ else
         EXTRA_CB_OPTIONS="${EXTRA_CB_OPTIONS:-} --no-test"
     fi
 
-<<<<<<< HEAD
-    conda mambabuild ./recipe -m ./.ci_support/${CONFIG}.yaml \
-=======
     conda-build ./recipe -m ./.ci_support/${CONFIG}.yaml \
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
         --suppress-variables ${EXTRA_CB_OPTIONS:-} \
         --clobber-file ./.ci_support/clobber_${CONFIG}.yaml \
         --extra-meta flow_run_id="$flow_run_id" remote_url="$remote_url" sha="$sha"

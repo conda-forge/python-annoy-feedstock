@@ -34,15 +34,9 @@ CONDARC
 export CONDA_LIBMAMBA_SOLVER_NO_CHANNELS_FROM_INSTALLED=1
 
 mamba install --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
-<<<<<<< HEAD
-    pip mamba conda-build boa conda-forge-ci-setup=3
-mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
-    pip mamba conda-build boa conda-forge-ci-setup
-=======
     pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
 mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
     pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
 
 # set up the condarc
 setup_conda_rc "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"

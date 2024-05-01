@@ -43,7 +43,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>linux_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -51,8 +50,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -88,7 +85,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>linux_aarch64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -96,8 +92,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_aarch64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -133,7 +127,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>linux_ppc64le_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -141,8 +134,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_ppc64le_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -178,7 +169,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>osx_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -186,8 +176,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>osx_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -258,7 +246,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>win_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -266,8 +253,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>win_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">

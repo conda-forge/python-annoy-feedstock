@@ -16,13 +16,10 @@ jobs:
         CONFIG: linux_64_python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-<<<<<<< HEAD
       linux_64_python3.12.____cpython:
         CONFIG: linux_64_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
       linux_64_python3.8.____cpython:
         CONFIG: linux_64_python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -43,13 +40,10 @@ jobs:
         CONFIG: linux_aarch64_python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-<<<<<<< HEAD
       linux_aarch64_python3.12.____cpython:
         CONFIG: linux_aarch64_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
       linux_aarch64_python3.8.____cpython:
         CONFIG: linux_aarch64_python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -70,13 +64,10 @@ jobs:
         CONFIG: linux_ppc64le_python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-<<<<<<< HEAD
       linux_ppc64le_python3.12.____cpython:
         CONFIG: linux_ppc64le_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-=======
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
       linux_ppc64le_python3.8.____cpython:
         CONFIG: linux_ppc64le_python3.8.____cpython
         UPLOAD_PACKAGES: 'True'

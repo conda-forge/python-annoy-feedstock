@@ -33,10 +33,5 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
-<<<<<<< HEAD
-- - python
-  - channel_sources
-=======
 - - c_stdlib_version
   - cdt_name
->>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
