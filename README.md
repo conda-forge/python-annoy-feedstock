@@ -43,6 +43,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+<<<<<<< HEAD
               <td>linux_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -50,6 +51,8 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+=======
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -85,6 +88,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+<<<<<<< HEAD
               <td>linux_aarch64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -92,6 +96,8 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+=======
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_aarch64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -127,6 +133,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+<<<<<<< HEAD
               <td>linux_ppc64le_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -134,6 +141,8 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+=======
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>linux_ppc64le_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -169,6 +178,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+<<<<<<< HEAD
               <td>osx_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -176,6 +186,8 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+=======
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>osx_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -246,6 +258,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+<<<<<<< HEAD
               <td>win_64_python3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -253,6 +266,8 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+=======
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
               <td>win_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4156&branchName=main">
@@ -354,7 +369,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance

@@ -28,13 +28,21 @@ conda-build:
 pkgs_dirs:
   - ${FEEDSTOCK_ROOT}/build_artifacts/pkg_cache
   - /opt/conda/pkgs
+solver: libmamba
 
 CONDARC
+export CONDA_LIBMAMBA_SOLVER_NO_CHANNELS_FROM_INSTALLED=1
 
 mamba install --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
+<<<<<<< HEAD
     pip mamba conda-build boa conda-forge-ci-setup=3
 mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
     pip mamba conda-build boa conda-forge-ci-setup
+=======
+    pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
+mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
+    pip mamba conda-build conda-forge-ci-setup=4 "conda-build>=24.1"
+>>>>>>> 33efcd3 (MNT: Re-rendered with conda-build 24.3.0, conda-smithy 3.35.0, and conda-forge-pinning 2024.05.01.09.10.47)
 
 # set up the condarc
 setup_conda_rc "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
@@ -66,9 +74,10 @@ if [[ "${BUILD_WITH_CONDA_DEBUG:-0}" == 1 ]]; then
     # Drop into an interactive shell
     /bin/bash
 else
-    conda mambabuild "${RECIPE_ROOT}" -m "${CI_SUPPORT}/${CONFIG}.yaml" \
+    conda-build "${RECIPE_ROOT}" -m "${CI_SUPPORT}/${CONFIG}.yaml" \
         --suppress-variables ${EXTRA_CB_OPTIONS:-} \
-        --clobber-file "${CI_SUPPORT}/clobber_${CONFIG}.yaml"
+        --clobber-file "${CI_SUPPORT}/clobber_${CONFIG}.yaml" \
+        --extra-meta flow_run_id="${flow_run_id:-}" remote_url="${remote_url:-}" sha="${sha:-}"
     ( startgroup "Validating outputs" ) 2> /dev/null
 
     validate_recipe_outputs "${FEEDSTOCK_NAME}"
