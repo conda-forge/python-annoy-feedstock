@@ -1,8 +1,7 @@
 {% set conda_forge_name = "python-annoy" %}
 {% set pypi_name = "annoy" %}
-{% set version = "1.17.2" %}
+{% set version = "1.17.3" %}
 {% set bundle_type = "tar.gz" %}
-{% set sha256 = "e67bfbb837d1306da4555c883860c7b215cb32a864e40022292d5847ad1fa0bb" %}
 
 
 package:
@@ -10,18 +9,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ pypi_name }}-{{ version }}.{{ bundle_type }}
   url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.{{ bundle_type }}
-  sha256: {{ sha256 }}
+  sha256: 9cbfebefe0a5f843eba29c6be4c84d601f4f41ad4ded0486f1b88c3b07739c15
 
 build:
   number: 1
-
 
 requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
@@ -29,11 +27,14 @@ requirements:
     - pip
     - nose >=1.0
     - setuptools
-
   run:
     - python
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - annoy
 
