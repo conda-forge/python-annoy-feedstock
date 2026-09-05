@@ -9,11 +9,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.{{ bundle_type }}
+  url: https://files.pythonhosted.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.{{ bundle_type }}
   sha256: 9cbfebefe0a5f843eba29c6be4c84d601f4f41ad4ded0486f1b88c3b07739c15
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
